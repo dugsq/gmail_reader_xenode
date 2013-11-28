@@ -1,4 +1,4 @@
-gmail-reader-xenode
+Gmail Reader Xenode
 ===================
 
 **Gmail Reader Xenode** monitors a specific Gmail account for the first unread message from a pre-defined email address set in the `sender` variable in the Configuration File. Once an email from the specific sender is discovered, the Gmail Reader Xenode then sends a message to its children for each attachment within the read email, where the output message data contains the content of the attachment.
