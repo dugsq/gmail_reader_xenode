@@ -14,16 +14,18 @@
 #   enabled: determines if the Xenode process is allowed to run. Expects true/false.
 #   debug: enables extra debug messages in the log file. Expects true/false.
 #   user_name: defines your gmail username. Expects a string.
-#   password: defines your gmail application access token / password. Expects a string.
+#   passwd: defines your gmail application access token / password. Expects a string.
 #   sender: defines the sender of the email to monitor. Expects a string.
+#   interval: defines the number of seconds to wait before polling the Gmail account for new email. Expects a float.
 #
 # Example Configuration File:
 #   enabled: false
 #   loop_delay: 30
 #   debug: false
 #   user_name: "jsmith@gmaildotcom"
-#   password: "abcdef123456"
+#   passwd: "abcdef123456"
 #   sender: "jdoe@youremaildomaindotcom"
+#   interval: 300
 #
 # Example Input: The Gmail Reader Xenode does not expect nor handle any input. 
 #
