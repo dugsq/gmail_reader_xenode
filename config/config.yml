@@ -1,5 +1,8 @@
 ---
-user_name: info@nodally.com
+enabled: true
+loop_delay: 30
+debug: false
+user_name: jsmith@gmaildotcom
 passwd: "password"
-sender: someone@example.com
+sender: someone@exampledotcom
 interval: 300
