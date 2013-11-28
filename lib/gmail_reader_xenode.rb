@@ -11,7 +11,7 @@
 require 'gmail'
 
 class GmailReaderXenode
-  include XenoCore::NodeBase
+  include XenoCore::XenodeBase
 
   # Initialization of variables derived from @config.
   # @param [Hash] opts
