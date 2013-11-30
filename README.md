@@ -1,6 +1,8 @@
 Gmail Reader Xenode
 ===================
 
+Note: you will need the Xenograte Community Toolkit (XCT) to run this Xenode. Refer to the XCT repo [https://github.com/Nodally/xenograte-xct](https://github.com/Nodally/xenograte-xct) for more information.
+
 **Gmail Reader Xenode** monitors a specific Gmail account for the first unread message from a pre-defined email address set in the `sender` variable in the Configuration File. Once an email from the specific sender is discovered, the Gmail Reader Xenode then sends a message to its children for each attachment within the read email, where the output message data contains the content of the attachment.
 
 ###Configuration File Options:###
